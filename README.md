@@ -2,7 +2,7 @@
 
 This is a Next.js application that serves as a dashboard to explore various Pokemon data using the [PokeAPI](https://pokeapi.co). Users can search for Pokemon, view categories/types, and see detailed stats in graphical form for each Pokemon.
 
-**Demo**: [https://pokeapi-dashboard.vercel.app](https://pokeapi-dashboard.vercel.app)
+**Preview**: [https://pokeapi-dashboard.vercel.app](https://pokeapi-dashboard.vercel.app)
 
 ## Features
 
