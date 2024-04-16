@@ -1,9 +1,8 @@
-// pages/index.js
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import Link from "next/link";
 import styled from "styled-components";
-import Search from "../components/Search"; // Ensure this path is correct based on your directory structure
+import Search from "../components/Search";
 
 // Styled component
 const CategoryList = styled.div`
@@ -28,7 +27,6 @@ export default function Home() {
   if (status === "loading") return <p>Loading...</p>;
   if (status === "error") return <p>Error fetching data</p>;
 
-  // Return your page content
   return (
     <>
       <header className="header">
